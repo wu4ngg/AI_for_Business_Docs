@@ -26,7 +26,14 @@ https://marketplace.visualstudio.com/items?itemName=prompt-flow.prompt-flow
 Mạnh hơn Visual Code nhưng phải nôn tiền ra cho JetBrains\
 https://www.jetbrains.com/pycharm/download/
 ## Tải prompt flow về từ Azure
-### 1. Thì cứ tải thôi
+1. Vào Azure ML Studio
+2. Ở thanh bên, vào Prompt flow
+3. Trên danh sách, chọn AI_for_Business
+<img width="1243" alt="image" src="https://github.com/user-attachments/assets/2c614db7-124f-4017-999a-51e6cbaf83b5">
+
+4. Chọn tải về như trên hình
+
+
 ## Chuẩn bị debug
 ### 0. Link .venv và requrements.txt
 Tạo requrements.txt
