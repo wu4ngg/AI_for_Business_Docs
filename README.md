@@ -41,7 +41,7 @@ Terminal > New Terminal
 2. Đợi hơi lâu với lại máy nào RAM <16gb sẽ lag
 3. Khi promotflow load xong thì ở khung FLOWS, chọn thư mục ".."
 Sau đó chọn AI_for_Business và ấn nút "Open"
-![alt text](image.png)
+![alt text](image.png)\
 Nó sẽ ra giao diện như thế này:
 ![alt text](image-1.png)
 4. Nếu nó kêu install dependencies thì chạy lệnh
