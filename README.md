@@ -6,22 +6,22 @@
 Đây là phần Prompt flow AI cho dự án AI For Business của ATS. README này bao gồm yêu cầu dự án, và cách execute và chạy test.
 ## Yêu cầu phần mềm
 ### Python 3
-Phiên bản tối thiểu: 3.12.5 (Có thể sử dụng phiên bản mới nhất).
-https://www.python.org/downloads/
+Phiên bản tối thiểu: 3.12.5 (Có thể sử dụng phiên bản mới nhất).\
+https://www.python.org/downloads/ \
 Phải link .venv trước mới xài được pip
 ```
 cho windows
 > python -m .\.venv
 ```
 ### Visual Studio Code
-Chắc ai cũng có rồi =))
+Chắc ai cũng có rồi =))\
 https://code.visualstudio.com/
 ### Prompt flow for Visual Studio Code
-Cái này cung cấp giao diện cho các file Promptflow, cụ thể `flow.dag.yaml`
-(Có thể vào tab Extensions của Visual Studio Code, search promptflow và tải về kết quả đầu tiên)
+Cái này cung cấp giao diện cho các file Promptflow, cụ thể `flow.dag.yaml`\
+(Có thể vào tab Extensions của Visual Studio Code, search promptflow và tải về kết quả đầu tiên)\
 https://marketplace.visualstudio.com/items?itemName=prompt-flow.prompt-flow
 ### Pycharm (Optional)
-Mạnh hơn Visual Code nhưng phải nôn tiền ra cho JetBrains
+Mạnh hơn Visual Code nhưng phải nôn tiền ra cho JetBrains\
 https://www.jetbrains.com/pycharm/download/
 
 ## Chuẩn bị debug
