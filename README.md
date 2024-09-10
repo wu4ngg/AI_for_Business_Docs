@@ -2,8 +2,10 @@
 
 <hr/>
 
+***Ko có up source code lên đây tại sợ leak***
+
 # Prompt flow AI For Business
-Đây là phần Prompt flow AI cho dự án AI For Business của ATS. README này bao gồm yêu cầu dự án, và cách execute và chạy test.
+Đây là phần Prompt flow AI cho dự án AI For Business của ATS. README này bao gồm yêu cầu dự án, và cách execute và chạy test.\
 ## Yêu cầu phần mềm
 ### Python 3
 Phiên bản tối thiểu: 3.12.5 (Có thể sử dụng phiên bản mới nhất).\
@@ -23,9 +25,19 @@ https://marketplace.visualstudio.com/items?itemName=prompt-flow.prompt-flow
 ### Pycharm (Optional)
 Mạnh hơn Visual Code nhưng phải nôn tiền ra cho JetBrains\
 https://www.jetbrains.com/pycharm/download/
-
+## Tải prompt flow về từ Azure
+### 1. Thì cứ tải thôi
 ## Chuẩn bị debug
-### 0. Link .venv
+### 0. Link .venv và requrements.txt
+Tạo requrements.txt
+```
+promptflow
+azure-storage-blob
+azureml.core
+pyodbc
+promptflow-tools
+openpyxl
+```
 Phải link .venv trước mới xài được pip
 ```
 cho windows
