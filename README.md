@@ -97,7 +97,7 @@ và nhập email + mật khẩu
 ```
 cd docker
 docker build . -t triquang/promptflow
-docker run -p 8080:8080 -e OPENAI_API_KEY="<tự lên azure mà lấy API key>" triquang/promptflow
+docker run -p 8080:8080 -e OPEN_AI_CONNECTION_API_KEY=="<tự lên azure mà lấy API key>" triquang/promptflow
 ```
 <hr/>
 
