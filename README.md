@@ -81,13 +81,23 @@ Nó sẽ ra giao diện như thế này:
 4. Chọn Build As Docker
 5. Chọn folder docker (k có thì tạo)
 6. Ấn nút "Create Dockerfile"
+### Đăng nhập docker hub
+1. Gõ lệnh
+```
+docker login
+```
+và nhập email + mật khẩu
+2. Ấn enter
 ### Build docker image
 1. Terminal > New Terminal
 2. Chạy lệnh
+
+> [!IMPORTANT]
+> Bắt buộc đặt tên image là triquang/promptflow để push lên docker hub.
 ```
 cd docker
-docker build . -t promptflow
-docker run -p 8080:8080 -e OPENAI_API_KEY="<tự lên azure mà lấy API key>" promptflow
+docker build . -t triquang/promptflow
+docker run -p 8080:8080 -e OPENAI_API_KEY="<tự lên azure mà lấy API key>" triquang/promptflow
 ```
 <hr/>
 
